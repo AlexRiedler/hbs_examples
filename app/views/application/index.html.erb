@@ -2,12 +2,16 @@
 
 <article>
   <h1> First Example </h1>
-  <p>
-  Go into your console and try it out!
-  <p>
+  <p>Go into your console and try it out!<p>
 
+  <p>
+    <b>$('#test-area').html(HandlebarsTemplates['helloworld']({name: 'Zeus The God'}));</b>
   </p>
-    <b>$('#test-area').innerHtml = HandlebarsTemplates['helloworld']({name: 'Zeus The God'});</b>
+
+  <h1> Helper Example </h1>
+
+  <p>
+    <b>$('#test-area').html(HandlebarsTemplates['telephone']({number: 1234567890}));</b>
   </p>
 
   <div id="test-area">
